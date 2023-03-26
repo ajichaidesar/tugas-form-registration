@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Biodata</h1>
+        <form action="biodata.html">
+            <label for="foto">Upload Foto:</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="hobby">Hobby:</label>
+            <input type="text" id="hobby" name="hobby" required>
+            <label for="pekerjaan">Pekerjaan:</label>
+            <input type="text" id="pekerjaan" name="pekerjaan" required>
+            <label for="nationality">Nationality:</label>
+            <select id="nationality" name="nationality" required>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Singapura">Singapura</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Vietnam">Vietnam</option>
+            </select>
+            <label for="biodata">Biodata:</label>
+            <textarea id="biodata" name="biodata" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
