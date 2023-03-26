@@ -1,0 +1,29 @@
+/* #nama_depan, #nama_belakang 
+{
+    padding: 15px 10px 15px 10px;
+    margin: 5px 5px 0px 20px;
+ } */
+
+/* input[type="text"] {
+    padding: 15px 10px 15px 10px;
+    margin: 5px 5px 0px 20px;
+} */
+
+.inputantext {
+    padding: 15px 10px 15px 10px;
+    margin: 5px 5px 0px 20px;
+}
+
+.labelstyle {
+    font-size: 20px;
+    color: green;
+}
+
+h1 {
+    color:blue;
+    font-size: 50px;
+    }
+
+form {
+    border: 1px solid black;
+}

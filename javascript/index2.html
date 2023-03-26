@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+<body>
+    
+    <p>hello</p>
+    <hr>
+    <p>get element by id</p>
+    <p id="byid"></p>
+
+    <hr>
+
+    <p>get element by id</p>
+    <p id="bytagname"></p>
+
+    <hr>
+
+    <p>get element by class name</p>
+    <p class="intro">this is</p>
+    <p class="intro">this is example of</p>
+    <p id="byclassname"></p>
+
+    <script>
+
+        //by id
+        document.getElementById("byid").innerHTML = "this is example of getelementbyid"
+        //tagname
+        const tagname = document.getElementByTagName ("p");
+        document.getElementById("bytagname").innerHTML = "thus is example by tagname" + element [0].innerHTML;
+        //classname
+        const classname = document.getElementsByClassName("intro");
+        document.getElementById("byclassname").innerHTML = document.getElementsByClassName[1].innerHTML + "getelementby classname";
+
+
+    </script>
+</body>
+</html>
